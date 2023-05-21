@@ -8,7 +8,7 @@ You may want to do this so that you can track your internet connections consiste
 
 ## Using the script
 
-Adjust the InfluxDB connection settings at the top of `main.py` to fit your setup and then run with one of the options listed below.
+Adjust the InfluxDB connection settings at the top of `speedtest2influx.py` to fit your setup and then run with one of the options listed below.
 
 Be aware that this script will automatically accept the license and GDPR statement so that it can run non-interactively. Make sure you agree with them before running.
 
