@@ -36,7 +36,7 @@ Be aware that this script will automatically accept the license and GDPR stateme
 
     `docker run -d --name speedtest-influx aidengilmartin/speedtest-influx`
 
-### B. Run with Docker or Podman
+### B. Run the entire stack with docker-compose
 
     In the docker_env/ folder you can edit the environment variables of the docker container (see below, [grafana](https://grafana.com/docs/grafana/latest/installation/docker/) and [influx](https://hub.docker.com/_/influxdb)). 
 
