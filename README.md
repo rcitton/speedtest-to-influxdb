@@ -26,7 +26,7 @@ Be aware that this script will automatically accept the license and GDPR stateme
 
     `python3 ./speedtest2influx.py`
 
-### 2. Run with Docker or Podman
+### A. Run with Docker or Podman
 
 1. Build the container.
 
@@ -36,7 +36,7 @@ Be aware that this script will automatically accept the license and GDPR stateme
 
     `docker run -d --name speedtest-influx aidengilmartin/speedtest-influx`
 
-3. Run the full stack with docker-compose
+### B. Run with Docker or Podman
 
     In the docker_env/ folder you can edit the environment variables of the docker container (see below, [grafana](https://grafana.com/docs/grafana/latest/installation/docker/) and [influx](https://hub.docker.com/_/influxdb)). 
 
