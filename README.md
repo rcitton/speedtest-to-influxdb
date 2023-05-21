@@ -56,12 +56,21 @@ Be aware that this script will automatically accept the license and GDPR stateme
 
 Use OS or Docker environmet variables to configure the program run.
 
-Example: `docker run -d --env DB_ADDRESS= influx_db --env TEST_INTERVAL=120 --name speedtest-influx aidengilmartin/speedtest-influx`
+Example: 
+`docker run -d \
+--env DB_ADDRESS=localhost \
+--env DB_USER=admin \
+--env DB_PASSWORD=admin \
+--env DB_DATABASE=SpeedTest_DB \
+--env PRINT_DATA=true \
+--name speedtest-influx aidengilmartin/speedtest-influx`
+
+
 ### InfluxDB Settings
 
 | Variable          | Default Value        | Informations                                                 |
 |:------------------|:---------------------|:-------------------------------------------------------------|
-| DB_ADDRESS        | db_hostname.network  | FQDN of InfluxDB Server                                      |
+| DB_ADDRESS        | localhost            | FQDN of InfluxDB Server                                      |
 | DB_PORT           | 8086                 | Port Number of InfluxDB Server                               |
 | DB_USER           | db_username          | InfluxDB user name                                           |
 | DB_PASSWORD       | db_password          | InfluxDB password                                            |
