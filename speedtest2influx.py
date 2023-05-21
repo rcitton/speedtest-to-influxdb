@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import time
 import json
 import subprocess
@@ -7,7 +9,7 @@ from influxdb import InfluxDBClient
 from datetime import datetime
 
 # InfluxDB Settings
-DB_ADDRESS = os.environ.get('DB_ADDRESS', 'db_hostname.network')
+DB_ADDRESS = os.environ.get('DB_ADDRESS', 'localhost')
 DB_PORT = os.environ.get('DB_PORT', 8086)
 DB_USER = os.environ.get('DB_USER', 'db_username')
 DB_PASSWORD = os.environ.get('DB_PASSWORD', 'db_password')
