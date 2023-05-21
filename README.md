@@ -30,11 +30,11 @@ Be aware that this script will automatically accept the license and GDPR stateme
 
 1. Build the container.
 
-    `docker build -t aidengilmartin/speedtest-influx ./`
+    `docker build -t rcitton/speedtest-influx ./`
 
 2. Run the container.
 
-    `docker run -d --name speedtest-influx aidengilmartin/speedtest-influx`
+    `docker run -d --name speedtest-influx rcitton/speedtest-influx`
 
 ### B. Run the entire stack with docker-compose
 
@@ -63,7 +63,7 @@ Example:
 --env DB_PASSWORD=admin \
 --env DB_DATABASE=SpeedTest_DB \
 --env PRINT_DATA=true \
---name speedtest-influx aidengilmartin/speedtest-influx`
+--name speedtest-influx rcitton/speedtest-influx`
 
 
 ### InfluxDB Settings
