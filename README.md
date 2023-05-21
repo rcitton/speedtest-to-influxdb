@@ -57,13 +57,13 @@ Be aware that this script will automatically accept the license and GDPR stateme
 Use OS or Docker environmet variables to configure the program run.
 
 Example: 
-`docker run -d \
---env DB_ADDRESS=localhost \
---env DB_USER=admin \
---env DB_PASSWORD=admin \
---env DB_DATABASE=SpeedTest_DB \
---env PRINT_DATA=true \
---name speedtest-influx rcitton/speedtest-influx`
+    `docker run -d \
+    --env DB_ADDRESS=localhost \
+    --env DB_USER=admin \
+    --env DB_PASSWORD=admin \
+    --env DB_DATABASE=SpeedTest_DB \
+    --env PRINT_DATA=true \
+    --name speedtest-influx rcitton/speedtest-influx`
 
 
 ### InfluxDB Settings
