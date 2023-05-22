@@ -4,7 +4,7 @@ This is a small Python script that will continuously run the Speedtest CLI appli
 
 You may want to do this so that you can track your internet connections consistency over time. Using Grafana you can view and explore this data easily.
 
-![Grafana Dashboard](https://i.imgur.com/8cUdMy7.png)
+![Grafana Dashboard](./.images/snap1.png)
 
 ## Using the script
 
